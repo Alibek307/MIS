@@ -24,11 +24,22 @@ a{
 li{
     list-style: none    ;
 }
-
+.btn-primary{
+    background-color: #1E88E5;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7%;
+  font-size: large;
+}
 /* nav */
 
 .nav{
     padding-top: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: 1000px 200px;
 }
@@ -66,3 +77,49 @@ header{
 .text__1{    
     font-size: 60px;
 }
+
+/* main */
+
+
+.justten{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.justten__frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+     
+}
+.justten__frame p{
+    color: #9D9D9D;
+} 
+.email p{
+    color: #9D9D9D;
+}
+.logo img{
+    max-height: 100px;
+}
+.email{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size:35px;
+}
+.email__input{
+    width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: large;
+}
+
