@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+    <nav class="nav">
+        <ul class="nav__menu">
+            <li class="nav__menu_item">
+                <a class="nav__menu_active" href="index.html">Home</a>
+            </li>
+            <li class="nav__menu_item">
+                <a href="reports.html">Reports</a>
+            </li>
+            <li class="nav__menu_item">
+                <a href="tutorial.html">Tutorial</a>
+            </li>
+            <li class="nav__menu_item">
+                <a href="login.php">Log In</a>
+            </li>
+            <li class="nav__menu_item">
+                <a href="signup.php">Sign Up</a>
+            </li>
+
+            <a href="logout.php">Logout</a>
+        </ul>
+    </nav>
+</header>
+    <section class="container form">
+        <h1>Post A Project</h1>
+        <br>
+        <p></p>
+        <br>
+        <form action="post.php" id="form" class="form-body" method="POST">
+            <label for="project">Project Title:</label><br>
+            <input type="text" class="form__input" name="title">
+            <br>
+            <label for="project">Project Description:</label><br>
+            <textarea class="form__textarea" name="description" id="description" cols="80" rows="10"></textarea>
+            <br>
+            <button type="submit"  class="btn-primary">Post</button>
+        </form>
+    </section>
+</body>
+</html>

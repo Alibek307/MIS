@@ -98,13 +98,13 @@ header{
 .justten__frame p{
     color: #9D9D9D;
 } 
-.email p{
+.form p{
     color: #9D9D9D;
 }
 .logo img{
     max-height: 100px;
 }
-.email{
+.form{
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -114,12 +114,17 @@ header{
 h1{
     font-size:35px;
 }
-.email__input{
-    width: 40%;
-  padding: 12px 20px;
+.form__input{
+    width: 740px;
   margin: 8px 0;
   box-sizing: border-box;
   background-color: white;
   font-size: large;
 }
 
+.form__textarea{
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: large;
+}

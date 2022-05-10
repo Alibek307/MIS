@@ -23,21 +23,23 @@
                     <a class="nav__menu_active" href="index.html">Home</a>
                 </li>
                 <li class="nav__menu_item">
-                    <a href="reports.html">Reports</a>
+                    <a href="projects.php">Projects</a>
                 </li>
                 <li class="nav__menu_item">
                     <a href="tutorial.html">Tutorial</a>
                 </li>
                 <li class="nav__menu_item">
-                    <a href="">Log In</a>
+                    <a href="login.php">Log In</a>
                 </li>
                 <li class="nav__menu_item">
-                    <a href="signup.html">Sign Up</a>
+                    <a href="signup.php">Sign Up</a>
                 </li>
+
+                <a href="logout.php">Logout</a>
             </ul>
             <div class="nav__btn">
                 <div>
-                    <a class="btn-primary" href="">Post a project</a>
+                    <a class="btn-primary" href="post.html">Post a project</a>
                 </div>
             </div>
         </nav>
@@ -61,7 +63,7 @@
             <div class="justten">
                 <div class="justten__frame">
                     <div class="logo">
-                        <a href="signup.html"><img src="images/follow.png" alt="choose"></a>
+                        <a href="signup.php"><img src="images/follow.png" alt="choose"></a>
                     </div>
                     <div class="frame__text">
                         <h3>Create Account</h3>
@@ -90,14 +92,16 @@
         </section>
         <hr>
         <div class="justbackgr">
-            <section class="container email">
+            <section class="container form">
                 <h1>Newsletter Subscription</h1>
                 <br>
                 <p>Subscribe to our newsletter to keep up to date on market trends.</p>
                 <br>
-                <input type="text" class="email__input" placeholder="Enter your email address">
-                <br>
-                <button type="button" class="btn-primary">Subscribe</button>
+                <form action="POST" id="form" class="form-body">
+                    <input type="text" id="formEmail" class="form__input" name="email" placeholder="Enter your email address">
+                    <br>
+                    <button type="submit"  class="btn-primary">Subscribe</button>
+                </form>
             </section>
         </div>
     </main>
